@@ -1,0 +1,39 @@
+#for-stephen {
+    font-family: 'Meow Script';
+    font-size: 80px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#for-stephen #first-name, #for-stephen #last-name {
+    font-size: 1rem;
+    text-align: center;
+    line-height: 1;
+    /* color: #c6e2ff; */
+    color: hsl(327, 89%, 44%);
+    animation: neon .08s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow:
+    0 0 12px rgba(202,228,225,0.92),
+    0 0 60px rgba(202,228,225,0.34),
+    0 0 24px rgba(30,132,242,0.52),
+    0 0 42px rgba(30,132,242,0.92),
+    0 0 68px rgba(30,132,242,0.78),
+    0 0 108px rgba(30,132,242,0.92);
+  }
+  to {
+    text-shadow:
+    0 0 12px hsla(173, 33%, 84%, 0.98),
+    0 0 60px hsla(173, 33%, 84%, 0.42),
+    0 0 24px hsla(211, 89%, 53%, 0.58),
+    0 0 42px hsla(211, 89%, 53%, 0.84),
+    0 0 68px hsla(211, 89%, 53%, 0.88),
+    0 0 108px hsl(211, 89%, 53%);
+  }
+}
