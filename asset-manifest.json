@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ubiquitous-octo-rotary-phone/static/css/main.c52b5ea5.css",
+    "main.js": "/ubiquitous-octo-rotary-phone/static/js/main.93a71947.js",
+    "static/js/787.76ae5153.chunk.js": "/ubiquitous-octo-rotary-phone/static/js/787.76ae5153.chunk.js",
+    "index.html": "/ubiquitous-octo-rotary-phone/index.html",
+    "main.c52b5ea5.css.map": "/ubiquitous-octo-rotary-phone/static/css/main.c52b5ea5.css.map",
+    "main.93a71947.js.map": "/ubiquitous-octo-rotary-phone/static/js/main.93a71947.js.map",
+    "787.76ae5153.chunk.js.map": "/ubiquitous-octo-rotary-phone/static/js/787.76ae5153.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c52b5ea5.css",
+    "static/js/main.93a71947.js"
+  ]
+}
