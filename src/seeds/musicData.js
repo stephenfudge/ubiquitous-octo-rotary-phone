@@ -1,58 +1,76 @@
 
 const music =
 [{
-    "title": "AC/DC Family Jewels",
+    "artist": "AC/DC",
+    "title": "Family Jewels",
     "format": "DVD"
   },{
-    "title": "AC/DC Live At Donnington",
+    "artist": "AC/DC",
+    "title": "Live At Donnington",
     "format": "DVD"
   },{
-    "title": "AC/DC No Bull",
+    "artist": "AC/DC",
+    "title": "No Bull",
     "format": "DVD"
   },{
-    "title": "AC/DC Stiff Upper Lip Live",
+    "artist": "AC/DC",
+    "title": "Stiff Upper Lip Live",
     "format": "DVD"
   },{
-    "title": "Ben Folds & WASO Live In Perth",
+    "artist": "Ben Folds & WASO",
+    "title": "Live In Perth",
     "format": "DVD"
   },{
-    "title": "Billy Talent Scandalous Travellers",
+    "artist": "Billy Talent",
+    "title": "Scandalous Travellers",
     "format": "DVD"
   },{
-    "title": "Black Sabbath Gathered In Their Masses",
+    "artist": "Black Sabbath",
+    "title": "Gathered In Their Masses",
     "format": "BRD"
   },{
-    "title": "Danko Jones Bring On The Mountain",
+    "artist": "Danko Jones",
+    "title": "Bring On The Mountain",
     "format": "DVD"
   },{
+    "artist": "Ozzy Osbourne",
     "title": "God Bless Ozzy Osbourne",
     "format": "BRD"
   },{
-    "title": "Ozzy Osbourne Live At Budokan",
+    "artist": "Ozzy Osbourne",
+    "title": "Live At Budokan",
     "format": "DVD"
   },{
-    "title": "Red Hot Chili Peppers Off The Map",
+    "artist": "Red Hot Chili Peppers",
+    "title": "Off The Map",
     "format": "DVD"
   },{
-    "title": "Red Hot Chili Peppers What Hits?",
+    "artist": "Red Hot Chili Peppers",
+    "title": "What Hits?",
     "format": "DVD"
   },{
-    "title": "S.O.D. Kill Yourself The Movie",
+    "artist": "S.O.D.",
+    "title": "Kill Yourself The Movie",
     "format": "DVD"
   },{
-    "title": "S.O.D. Speak English Or Live",
+    "artist": "S.O.D.",
+    "title": "Speak English Or Live",
     "format": "DVD"
   },{
-    "title": "S.O.D. 20 Years Of Destruction",
+    "artist": "S.O.D.",
+    "title": "20 Years Of Destruction",
     "format": "DVD"
   },{
-    "title": "Spanky Off Time",
+    "artist": "Spanky",
+    "title": "Off Time",
     "format": "DVD"
   },{
-    "title": "Steel Panther British Invasion",
+    "artist": "Steel Panther",
+    "title": "British Invasion",
     "format": "BRD"
   },{
-    "title": "Weird Al Yankovic",
+    "artist": "Weird Al Yankovic",
+    "title": "LIVE",
     "format": "DVD"
   }]
 

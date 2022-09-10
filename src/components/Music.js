@@ -27,8 +27,9 @@ const Music = () => {
         <thead>
           <tr className="text-lightpink">
             <th>
-              Artist/Title of DVD
+              Artist
             </th>
+            <th>Title of DVD</th>
               <th>
                 Media Format
               </th>
@@ -38,6 +39,7 @@ const Music = () => {
           {music.map((film) =>{
   return (
     <tr  key={film.id}>
+      <td>{film.artist}</td>
     <td>{[film.title]}</td>
     <td>{film.format}</td>
     </tr>
