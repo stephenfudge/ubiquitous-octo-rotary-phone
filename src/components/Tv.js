@@ -22,9 +22,9 @@ import tv from '../seeds/tvData';
 
 const Tv = () =>{
   return(
-    <div>
+    <div className='flex justify-center mx-auto bg-bedazzle'>
       <table class="table-auto">
-        <thead>
+        <thead className='text-lightpink'>
           <th>
             Series Name
           </th>
@@ -35,7 +35,7 @@ const Tv = () =>{
             Media Format
           </th>
         </thead>
-        <tbody>
+        <tbody className='text-powder'>
           {tv.map((series) =>{
             return(
               <tr key={series.id}>

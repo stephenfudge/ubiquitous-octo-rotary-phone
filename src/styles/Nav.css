@@ -1,5 +1,14 @@
-#title{
+/* #title{
     color: #989fce;
   }
   
+ */
 
+/* ul{
+  display: inline-block;
+} */
+
+li{
+  display: inline;
+  padding: 2%;
+}

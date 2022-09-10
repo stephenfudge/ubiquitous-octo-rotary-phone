@@ -22,17 +22,17 @@ import wrestling from '../seeds/wrestlingData';
 
 const Wrestling = () => {
     return(
-        <div>
+        <div className='flex justify-center mx-auto bg-bedazzle'>
             <table className='table-auto'>
                 <thead>
-                    <tr>
+                    <tr className='text-lightpink'>
                         <th>Promotion</th>
                             <th>Title</th>
                                 <th>Presentation Format</th>
                                     <th>Media Format</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody className='text-powder'>
                     {wrestling.map((film) => {
                         return(
                         <tr key={film.id}>

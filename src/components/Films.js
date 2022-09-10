@@ -22,15 +22,15 @@ import films from '../seeds/filmData';
 
 const Films = () => {
   return(
-    <div className=''>
+    <div className='flex justify-center bg-bedazzle'>
       <table>
-        <thead>
+        <thead className='text-lightpink'>
           <tr>
              <th>Title</th>
                <th>Media Format</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody className='text-powder'>
           {films.map((film) => {
             return(
               <tr key={film.id}>

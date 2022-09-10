@@ -10,6 +10,7 @@ module.exports = {
       lightpink: "#edafb8ff",
       darkpurple: "#240115ff",
       jazzberry: "#9a275aff",
+      paradise: "#ee4266ff",
     },
     // extend: {},
   },
