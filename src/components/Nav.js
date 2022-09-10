@@ -1,7 +1,5 @@
 import '../styles/Nav.css';
 
-
-
 const Nav = (props) =>{
     function pageChange(event){
      const id = event.target.id;
@@ -40,5 +38,7 @@ const Nav = (props) =>{
        </div>
      )
  };
- 
+
+
+
  export default Nav;
