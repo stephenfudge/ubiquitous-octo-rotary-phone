@@ -1,28 +1,50 @@
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
+
+
 import './App.css';
-import Main from './pages/Main';
-
-
-function App() {
-  return (
-    <div className="App">
-    <Main />
-    </div>
-  );
-}
-
-export default App;
-
+// import Main from './pages/Main';
+import NavRouter from './components/NavRouter';
+import Footer from './components/Footer';
+import TestMain from './pages/TestMain';
+import Films from './components/Films';
+import Tv from './components/Tv';
+import Music from './components/Music';
+import Wrestling from './components/Wrestling';
 
 // function App() {
 //   return (
-//     <div className="container mx-auto bg-gray-200 rounded-xl shadow border p-8 m-10">
-//       <p className="text-3xl text-gray-700 font-bold mb-5">
-//         Welcome!
-//       </p>
-//       <p className="text-gray-500 text-lg">
-//         React and Tailwind CSS in action
-//       </p>
+//     <div className="App">
+//     <Main />
 //     </div>
 //   );
 // }
-// export default App;
+
+
+
+function App(){
+  return(
+    <Router>
+      <div className='App'>
+      <NavRouter />
+      <Routes>
+
+      <Route path='/' element={<TestMain />} />
+
+      <Route path='/films' element={<Films />} />
+      <Route path='music' element={<Music />} />
+      <Route path='tv' element={<Tv />} />
+      <Route path='wrestling' element={<Wrestling />} />
+
+      </Routes>
+
+
+      <Footer />
+      </div>
+    </Router>
+  )
+}
+
+
+export default App;
