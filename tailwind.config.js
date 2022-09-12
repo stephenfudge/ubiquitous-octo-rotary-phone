@@ -6,6 +6,7 @@ module.exports = {
   ],
   theme: {
     colors: {
+      black: "#000000",
       bedazzle: "#3d5a80ff",
       powder: "#c0e0deff",
       lightpink: "#edafb8ff",

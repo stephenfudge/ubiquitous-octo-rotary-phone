@@ -23,25 +23,21 @@ import music from '../seeds/musicData';
 const Music = () => {
   return(
     <div className="flex justify-center mx-auto bg-bedazzle">
-      <table className="table-auto">
+      <table className="table-auto border-collapse border border-black">
         <thead>
           <tr className="text-lightpink">
-            <th>
-              Artist
-            </th>
-            <th>Title of DVD</th>
-              <th>
-                Media Format
-              </th>
+            <th className='border border-black'>Musical Artist</th>
+            <th className='border border-black'>Title of DVD</th>
+            <th className='border border-black px-4'>Media Format</th>
           </tr>
         </thead>
        <tbody className='text-powder'>
           {music.map((film) =>{
   return (
     <tr  key={film.id}>
-      <td>{film.artist}</td>
-    <td>{[film.title]}</td>
-    <td>{film.format}</td>
+      <td className='border border-black px-4'>{film.artist}</td>
+    <td className='border border-black px-4'>{[film.title]}</td>
+    <td className='border border-black'>{film.format}</td>
     </tr>
           );
           })}

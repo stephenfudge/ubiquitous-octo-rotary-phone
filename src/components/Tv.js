@@ -23,25 +23,19 @@ import tv from '../seeds/tvData';
 const Tv = () =>{
   return(
     <div className='flex justify-center mx-auto bg-bedazzle'>
-      <table class="table-auto">
+      <table class="table-auto border-collapse border border-black">
         <thead className='text-lightpink'>
-          <th>
-            Series Name
-          </th>
-          <th>
-            Season
-          </th>
-          <th>
-            Media Format
-          </th>
+          <th className='border border-black'>Series Name</th>
+          <th className='border border-black px-4'>Season</th>
+          <th className='border border-black px-4'>Media Format</th>
         </thead>
         <tbody className='text-powder'>
           {tv.map((series) =>{
             return(
               <tr key={series.id}>
-                <td>{series.title}</td>
-                <td>{series.season}</td>
-                <td>{series.format}</td>
+                <td className='border border-black px-4'>{series.title}</td>
+                <td className='border border-black'>{series.season}</td>
+                <td className='border border-black'>{series.format}</td>
               </tr>
             );
           })}

@@ -23,19 +23,19 @@ import films from '../seeds/filmData';
 const Films = () => {
   return(
     <div className='flex justify-center bg-bedazzle'>
-      <table>
+      <table className='border-collapse border border-black'>
         <thead className='text-lightpink'>
           <tr>
-             <th>Title</th>
-               <th>Media Format</th>
+             <th className='border border-black'>Title</th>
+               <th className='border border-black px-4'>Media Format</th>
           </tr>
         </thead>
         <tbody className='text-powder'>
           {films.map((film) => {
             return(
               <tr key={film.id}>
-                <td>{film.title}</td>
-                  <td>{film.format}</td>
+                <td className='border border-black px-4'>{film.title}</td>
+                  <td className='border border-black'>{film.format}</td>
               </tr>
             );
           })}

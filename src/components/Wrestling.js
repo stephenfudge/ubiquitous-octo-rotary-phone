@@ -23,23 +23,23 @@ import wrestling from '../seeds/wrestlingData';
 const Wrestling = () => {
     return(
         <div className='flex justify-center mx-auto bg-bedazzle'>
-            <table className='table-auto'>
+            <table className='table-auto border-collapse border border-black'>
                 <thead>
                     <tr className='text-lightpink'>
-                        <th>Promotion</th>
-                            <th>Title</th>
-                                <th>Presentation Format</th>
-                                    <th>Media Format</th>
+                        <th className='border border-black px-4'>Promotion</th>
+                            <th className='border border-black'>Title</th>
+                                <th className='border border-black px-4'>Presentation Format</th>
+                                    <th className='border border-black px-4'>Media Format</th>
                     </tr>
                 </thead>
                 <tbody className='text-powder'>
                     {wrestling.map((film) => {
                         return(
                         <tr key={film.id}>
-                            <td>{film.promotion}</td>
-                                <td>{film.title}</td>
-                                    <td>{film.presentation}</td>
-                                        <td>{film.format}</td>
+                            <td className='border border-black'>{film.promotion}</td>
+                                <td className='border border-black px-4'>{film.title}</td>
+                                    <td className='border border-black'>{film.presentation}</td>
+                                        <td className='border border-black'>{film.format}</td>
                         </tr>
                     );
                     })}
