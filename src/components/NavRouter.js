@@ -7,10 +7,15 @@ const NavRouter = (props) =>{
  
     return (
        <div className='bg-darkpurple text-jazzberry'>
-       <h1 className="text-3xl text-paradise" id="title">Stephen's Movie Collection</h1> 
-        <Link to="/"><button id="testmain">HOME</button></Link>
+       <h1 className="text-4xl text-paradise py-7" id="title">Stephen's Movie Collection</h1> 
          <div className="navbar-menu">
            <ul>
+           <li> <Link to="/"><button className='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow' >
+               HOME
+             </button>
+             </Link>
+       </li>
+
            <li> <Link to="/films"><button className='bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow' id="films" >
                Films
              </button>

@@ -22,7 +22,8 @@ import tv from '../seeds/tvData';
 
 const Tv = () =>{
   return(
-    <div className='flex justify-center mx-auto bg-bedazzle'>
+    // <div className='flex justify-center mx-auto bg-bedazzle'>
+    <div className='flex justify-center mx-auto bg-darkpurple'>
       <table class="table-auto border-collapse border border-black">
         <thead className='text-lightpink'>
           <th className='border border-black'>Series Name</th>
@@ -41,6 +42,7 @@ const Tv = () =>{
           })}
         </tbody>
       </table>
+     
     </div>
   )
 }

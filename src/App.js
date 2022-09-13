@@ -33,9 +33,9 @@ function App(){
       <Route path='/' element={<TestMain />} />
 
       <Route path='/films' element={<Films />} />
-      <Route path='music' element={<Music />} />
-      <Route path='tv' element={<Tv />} />
-      <Route path='wrestling' element={<Wrestling />} />
+      <Route path='/music' element={<Music />} />
+      <Route path='/tv' element={<Tv />} />
+      <Route path='/wrestling' element={<Wrestling />} />
 
       </Routes>
 
