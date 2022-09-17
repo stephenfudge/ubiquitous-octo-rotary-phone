@@ -22,11 +22,11 @@ import music from '../seeds/musicData';
 
 const Music = () => {
   return(
-    <div className="flex flex-col justify-center mx-auto bg-darkpurple py-2">
-      <div className='text-5xl text-bedazzle py-2'>
+    <div className="flex flex-col items-center mx-auto bg-darkpurple py-2">
+      <div className='md:text-5xl sm:text-2xl text-bedazzle py-2'>
         Music DVDs and BluRays 
       </div>
-      <div className='justify-center mx-auto py-8'>
+      <div className='py-8'>
       <table className="table-auto border-collapse border border-black">
         <thead>
           <tr className="text-lightpink">

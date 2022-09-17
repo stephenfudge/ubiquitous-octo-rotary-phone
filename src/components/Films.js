@@ -22,11 +22,11 @@ import films from '../seeds/filmData';
 
 const Films = () => {
   return(
-    <div className='flex flex-col justify-center bg-darkpurple'>
-      <div className='text-5xl text-bedazzle py-2'>
+    <div className='flex flex-col items-center bg-darkpurple'>
+      <div className='md:text-5xl sm:text-2xl text-bedazzle py-2'>
         Feature Films
       </div>
-      <div className='justify-center mx-auto py-8'>
+      <div className='py-8'>
       <table className='border-collapse border border-black'>
         <thead className='text-lightpink'>
           <tr>
