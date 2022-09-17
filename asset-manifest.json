@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ubiquitous-octo-rotary-phone/static/css/main.0a2e1bc7.css",
-    "main.js": "/ubiquitous-octo-rotary-phone/static/js/main.b83ec20b.js",
+    "main.css": "/ubiquitous-octo-rotary-phone/static/css/main.c28319da.css",
+    "main.js": "/ubiquitous-octo-rotary-phone/static/js/main.23e00e67.js",
     "static/js/787.76ae5153.chunk.js": "/ubiquitous-octo-rotary-phone/static/js/787.76ae5153.chunk.js",
     "index.html": "/ubiquitous-octo-rotary-phone/index.html",
-    "main.0a2e1bc7.css.map": "/ubiquitous-octo-rotary-phone/static/css/main.0a2e1bc7.css.map",
-    "main.b83ec20b.js.map": "/ubiquitous-octo-rotary-phone/static/js/main.b83ec20b.js.map",
+    "main.c28319da.css.map": "/ubiquitous-octo-rotary-phone/static/css/main.c28319da.css.map",
+    "main.23e00e67.js.map": "/ubiquitous-octo-rotary-phone/static/js/main.23e00e67.js.map",
     "787.76ae5153.chunk.js.map": "/ubiquitous-octo-rotary-phone/static/js/787.76ae5153.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a2e1bc7.css",
-    "static/js/main.b83ec20b.js"
+    "static/css/main.c28319da.css",
+    "static/js/main.23e00e67.js"
   ]
 }
