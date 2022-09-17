@@ -22,8 +22,11 @@ import tv from '../seeds/tvData';
 
 const Tv = () =>{
   return(
-    // <div className='flex justify-center mx-auto bg-bedazzle'>
-    <div className='flex justify-center mx-auto bg-darkpurple'>
+    <div className='flex flex-col justify-center mx-auto bg-darkpurple py-2'>
+      <div className='text-5xl text-bedazzle py-2'>
+      TV Shows
+      </div>
+      <div className='justify-center mx-auto py-8'>
       <table class="table-auto border-collapse border border-black">
         <thead className='text-lightpink'>
           <th className='border border-black'>Series Name</th>
@@ -43,6 +46,7 @@ const Tv = () =>{
         </tbody>
       </table>
      
+    </div>
     </div>
   )
 }

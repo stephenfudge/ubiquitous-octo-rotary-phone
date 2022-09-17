@@ -22,7 +22,11 @@ import wrestling from '../seeds/wrestlingData';
 
 const Wrestling = () => {
     return(
-        <div className='flex justify-center mx-auto bg-bedazzle'>
+        <div className='flex flex-col justify-center mx-auto bg-darkpurple'>
+            <div className='text-5xl text-bedazzle py-2'>
+             Professional Wrestling DVDs and BluRays
+            </div>
+            <div className='justify-center mx-auto py-8'>
             <table className='table-auto border-collapse border border-black'>
                 <thead>
                     <tr className='text-lightpink'>
@@ -45,6 +49,7 @@ const Wrestling = () => {
                     })}
                 </tbody>
             </table>
+        </div>
         </div>
     )
 }
