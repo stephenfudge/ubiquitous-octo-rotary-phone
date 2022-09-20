@@ -32,7 +32,7 @@ const Wrestling = () => {
                     <tr className='text-lightpink'>
                         <th className='border border-black px-4'>Promotion</th>
                             <th className='border border-black'>Title</th>
-                                <th className='border border-black px-4'>Presentation Format</th>
+                                <th className='border border-black px-4 hidden md:table-cell'>Presentation Format</th>
                                     <th className='border border-black px-4'>Media Format</th>
                     </tr>
                 </thead>
@@ -42,7 +42,7 @@ const Wrestling = () => {
                         <tr key={film.id}>
                             <td className='border border-black'>{film.promotion}</td>
                                 <td className='border border-black px-4'>{film.title}</td>
-                                    <td className='border border-black'>{film.presentation}</td>
+                                    <td className='border border-black hidden md:table-cell'>{film.presentation}</td>
                                         <td className='border border-black'>{film.format}</td>
                         </tr>
                     );
