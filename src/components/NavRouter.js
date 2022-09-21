@@ -2,9 +2,8 @@ import '../styles/Nav.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+// using react router and link for the navigation bar with the buttons for each of the categories
 const NavRouter = (props) =>{
-
- 
     return (
        <div className='bg-darkpurple text-jazzberry'>
        <h1 className="text-4xl text-paradise py-7" id="title">Stephen's Movie Collection</h1> 

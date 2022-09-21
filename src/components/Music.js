@@ -2,32 +2,17 @@ import React from 'react';
 import music from '../seeds/musicData';
 
   
-//   const Music = () => {
-
-//     return(
-//         <div className=''>
-//             <div className='container bg-gray-300 mx-auto rounded-xl'>
-//                  {music.map((film) => (
-//                     <li className='' key={film.id}>
-//                         <div>
-//                           <h2 className='film-name'>{[film.title]} {film.format}</h2><br />
-//                         </div>
-//                     </li>
-//     ))}
-//             </div>
-//         </div>
-//     )
-
-// }
-
+// shows the music dvds in a table with the headers of Musical Artist, Title and Media Format
 const Music = () => {
   return(
     <div className="flex flex-col items-center mx-auto bg-darkpurple py-2">
+      {/* header of page */}
       <div className='md:text-5xl sm:text-2xl text-bedazzle py-2'>
         Music DVDs and BluRays 
       </div>
       <div className='py-8'>
       <table className="table-auto border-collapse border border-black">
+        {/* column headers */}
         <thead>
           <tr className="text-lightpink">
             <th className='border border-black'>Musical Artist</th>
@@ -35,6 +20,7 @@ const Music = () => {
             <th className='border border-black px-4'>Media Format</th>
           </tr>
         </thead>
+        {/* table content */}
        <tbody className='text-powder'>
           {music.map((film) =>{
   return (

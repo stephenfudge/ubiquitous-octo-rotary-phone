@@ -1,5 +1,6 @@
 import '../styles/Footer.css'
 
+// the footer with the flashing name
 const Footer = () => {
     return (
         <div className='bg-darkpurple p-10'>
