@@ -1,666 +1,666 @@
 const films = [{
   "title": "100 Girls",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "21 Jump Street",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "22 Jump Street",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "3 Ninjas ",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "3 Ninjas 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "3 Ninjas 3",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "3 Ninjas 4",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "50/50",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "500 Days Of Summer",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Airheads",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Almost Famous",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "American History X",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "American Pie",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "American Pie 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "American Pie 3: Wedding",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "American Pie 4: Reunion",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Analyze That",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Analyze This",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Anchorman",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Any Given Sunday",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Atomic Blonde",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Bad Boys",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Bad Boys 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Beerfest",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Big Lebowski",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Bill & Ted`s Bogus Journey",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Bill & Ted`s Excellent Adventure",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Billy Madison",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Boondock Saints",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Boondock Saints 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Bourne Identity",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Bourne Supremacy",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Bourne Ultimatum ",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Broken Lizard Stands Up",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Care Bears Movie",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Casino",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Chaos Theory",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Chasing Amy",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Clerks 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Club Dread",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Crank ",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Crank 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Crazy Stupid Love",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Crocodile Dundee",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Crocodile Dundee 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Dave Chappelles Block Party",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Dave Chappelle Live",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Date Night",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Deadpool",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Dead Man On Campus",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Dead Poets Society",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Death Sentence",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Departed",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Dodgeball",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Dogma",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Don Jon",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Donnie Brasco",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Drive",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Eastern Promises",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Easy A",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Eight Crazy Nights",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Empire Records / Singles",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Entourage The Movie",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Equalizer",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Equalizer 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Expendables",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Expendables 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 3",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 4",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 5",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 6",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 7",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Fast And The Furious 8",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Faster",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Finding Nemo",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Fired Up!",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Forgetting Sarah Marshall",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Four Brothers",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Fubar",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Fubar 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Full Metal Jacket",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Get Carter",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Ghostbusters",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Ghostbusters 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Godfather",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Godfather 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Godfather 3",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Going The Distance",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Goodfellas",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Goods",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Goon",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Goon 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Grindhouse",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Half Baked",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Hangover",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Happy Gilmore",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Harold & Kumar",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Harold & Kumar 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Harold & Kumar 3",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "He`s Just Not That Into You",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "High Fidelity",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Hitch",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Horrible Bosses",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Hot Fuzz",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Hot Shots",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "I Hope They Serve Beer In Hell",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "I Love You Man",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Jay & Silent Bob Strike Back",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Jingle All The Way",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "John Wick",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "John Wick 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "John Wick 3",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Just Before I Go",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Kick-Ass",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Kingman",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Knocked Up",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Let`s Be Cops",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Losers",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Lucky Number Slevin",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Machete",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Machete Kills",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Major League",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Mallrats",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Max Payne",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Mechanic",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Mighty Ducks",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Mighty Ducks 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Mighty Ducks 3",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Mr & Mrs Smith",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Muppets Christmas Movie",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Muppets Movie",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Music & Lyrics",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Night Before",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Ninja Turtles",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Ninja Turtles 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Ninja Turtles 3",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Nobody",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "No Holds Barred",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Office Space",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Old School",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Other Guys",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Our Idiot Brother",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Pain & Gain",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Payback",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Pineapple Express",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Police Academy",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Police Academy 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Police Academy 3",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Police Academy 4",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Purple Rain",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "RED",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "RED 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Remember The Titans",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Replacements",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Reservoir Dogs",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Revenge Of The Nerds",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Revenge Of The Nerds 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Robocop",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Robocop 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Robocop 3",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Rocker",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Rock Star",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Role Models",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Rookie Of The Year",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Rundown",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Scarface",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "School Of Life",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "School Of Rock",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Scott Pilgrim Vs The World",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Search Party",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Shaun Of The Dead",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "She`s Out Of My League",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Shoot`em Up",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Slammin Salmon",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "SLC Punk",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "SLC Punk 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Smokin Aces",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Soul Men",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Spinal Tap",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Step Brothers",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Stick It",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Superbad",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Super Troopers",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Super Troopers 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Surf Ninjas",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Swingers",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Taken",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Ted",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Ted 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Teen Wolf",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Teen Wolf 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "This Is The End",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Training Day",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Transporter",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Transporter 2",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Transporter 3",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "UHF",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Undercover Brother",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Valentine`s Day",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Van Wilder",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Van Wilder 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Varsity Blues",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Waiting",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Walk Hard",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Waterboy",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Wayne`s World",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Wayne`s World 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Wedding Crashers",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "The Wedding Singer",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Weekend At Bernie`s",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Weekend At Bernie`s 2",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Whip It",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Who Framed Roger Rabbit?",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Whole Nine Yards",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Whole Ten Yards",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "World`s End",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "The Wrestler",
-  "format": "DVD",
+  "format":  "DVD"
 }, {
   "title": "Zack & Miri Make A Porno",
-  "format": "BRD",
+  "format":  "BRD"
 }, {
   "title": "Zombieland",
-  "format": "DVD",
+  "format":  "DVD"
 }]
 
 export default films;
