@@ -1,5 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from 'react-router-dom';
 
 
 
@@ -12,6 +16,8 @@ import Films from './components/Films';
 import Tv from './components/Tv';
 import Music from './components/Music';
 import Wrestling from './components/Wrestling';
+import FilmsDVD from './components/Films/FilmsDVD'
+import FilmsBRD from './components/Films/FilmsBRD';
 
 // function App() {
 //   return (
@@ -23,26 +29,64 @@ import Wrestling from './components/Wrestling';
 
 
 
-function App(){
-  return(
-    <Router>
-      <div className='App'>
-      <NavRouter />
-      <Routes>
+function App() {
+  return ( <
+    Router >
+    <
+    div className = 'App' >
+    <
+    NavRouter / >
+    <
+    Routes >
 
-      <Route path='/' element={<TestMain />} />
+    <
+    Route path = '/'
+    element = {
+      < TestMain / >
+    }
+    />
 
-      <Route path='/films' element={<Films />} />
-      <Route path='/music' element={<Music />} />
-      <Route path='/tv' element={<Tv />} />
-      <Route path='/wrestling' element={<Wrestling />} />
+    <
+    Route path = '/films'
+    element = {
+      < Films / >
+    }
+    /> <
+    Route path = '/music'
+    element = {
+      < Music / >
+    }
+    /> <
+    Route path = '/tv'
+    element = {
+      < Tv / >
+    }
+    /> <
+    Route path = '/wrestling'
+    element = {
+      < Wrestling / >
+    }
+    /> <
+    Route path = '/films/dvd'
+    element = {
+      < FilmsDVD / >
+    }
+    /> <
+    Route path = '/films/brd'
+    element = {
+      < FilmsBRD / >
+    }
+    />
 
-      </Routes>
+    <
+    /Routes>
 
 
-      <Footer />
-      </div>
-    </Router>
+    <
+    Footer / >
+    <
+    /div> <
+    /Router>
   )
 }
 
