@@ -1,7 +1,7 @@
 import React from "react";
 import music from "../../../seeds/musicData";
 
-// displays the feature films in a table with the headers Title and Media Format
+// shows the music dvds in a table with the headers of Musical Artist, Title and Media Format
 const MusicBRD = () => {
   return (
     <div className="flex flex-col items-center bg-darkpurple">

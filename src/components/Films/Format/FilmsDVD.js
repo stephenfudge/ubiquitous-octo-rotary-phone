@@ -1,10 +1,8 @@
 import React from "react";
-import films from '../../../seeds/filmData'
+import films from "../../../seeds/filmData";
 
 // displays the feature films in a table with the headers Title and Media Format
 const FilmsDVD = () => {
-
-
   return (
     <div className="flex flex-col items-center bg-darkpurple">
       {/* header of page */}
@@ -23,17 +21,17 @@ const FilmsDVD = () => {
           {/* table content */}
           <tbody className="text-powder">
             {films
-            .filter((film) => {
-              return film.format === 'DVD';
-            })
-            .map((film) => {
-              return (
-                <tr key={film.id}>
-                  <td className="border border-black px-4"> {film.title} </td>
-                  <td className="border border-black"> {film.format} </td>
-                </tr>
-              );
-            })}
+              .filter((film) => {
+                return film.format === "DVD";
+              })
+              .map((film) => {
+                return (
+                  <tr key={film.id}>
+                    <td className="border border-black px-4"> {film.title} </td>
+                    <td className="border border-black"> {film.format} </td>
+                  </tr>
+                );
+              })}
           </tbody>
         </table>
       </div>
