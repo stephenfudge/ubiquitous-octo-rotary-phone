@@ -1,16 +1,16 @@
 import React from "react";
 import wrestling from "../../../seeds/wrestlingData";
 
-// shows the wrestling dvds in a table with the headers of Promotion, Title, Presentation Format and Media Format
+// shows the wrestling brds in a table with the headers of Promotion, Title, Presentation Format and Media Format
 // the presentation format column is hidden on screens smaller than a medium size so that it fits properly on a small screen size
 
 const WrestlingBRD = () => {
   return (
     <div className="flex flex-col items-center mx-auto bg-darkpurple">
       {/* header of page */}
-      <div className="md:text-5xl sm:text-2xl text-bedazzle py-2">
+      {/* <div className="md:text-5xl sm:text-2xl text-bedazzle py-2">
         Professional Wrestling DVDs and BluRays
-      </div>
+      </div> */}
       <div className="py-8">
         <table className="table-auto border-collapse border border-black">
           {/* column headings */}
