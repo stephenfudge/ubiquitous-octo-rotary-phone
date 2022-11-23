@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import WrestlingNav from "./WrestlingNav";
+// import WrestlingNav from "./WrestlingNav";
 import Wrestling from "./Wrestling";
 import WrestlingDVD from "./Format/WrestlingDVD";
 import WrestlingBRD from "./Format/WrestlingBRD";
@@ -9,7 +9,7 @@ import WrestlingPPV from "./Presentation/PPV";
 import WWE from "./Promotion/WWE";
 import Other from "./Promotion/Other";
 
-import Dropdown from './dropdown'
+import WrestlingDropdown from './dropdown'
 
 export default function WrestlingContainer() {
   const [currentPage, setCurrentPage] = useState("Wrestling");
@@ -55,7 +55,7 @@ export default function WrestlingContainer() {
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       /> */}
-      <Dropdown 
+      <WrestlingDropdown 
       currentPage={currentPage}
       handlePageChange={handlePageChange}
       />

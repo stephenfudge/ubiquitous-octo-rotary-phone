@@ -21,3 +21,7 @@ li{
 .menuTypes{
   display: block;
 }
+
+button{
+  padding: 2%;
+}

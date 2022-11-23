@@ -5,10 +5,7 @@ import music from "../../../seeds/musicData";
 const MusicDVD = () => {
   return (
     <div className="flex flex-col items-center bg-darkpurple">
-      {/* header of page */}
-      <div className="md:text-5xl sm:text-2xl text-bedazzle py-2">
-        Feature Films
-      </div>
+   
       <div className="py-8">
         <table className="border-collapse border border-black">
           {/* column headings */}
