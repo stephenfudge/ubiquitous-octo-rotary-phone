@@ -10,14 +10,15 @@ import TestMain from "./pages/TestMain";
 import Tv from "./components/Tv/Tv";
 
 import MusicContainer from "./components/Music/MusicContainer";
+import FilmContainer from "./components/Films/FilmsContainer";
 
 // import Music from "./components/Music/Music";
 // import MusicDVD from "./components/Music/Format/MusicDVD";
 // import MusicBRD from "./components/Music/Format/MusicBRD";
 
-import Films from "./components/Films/Films";
-import FilmsDVD from "./components/Films/Format/FilmsDVD";
-import FilmsBRD from "./components/Films/Format/FilmsBRD";
+// import Films from "./components/Films/Films";
+// import FilmsDVD from "./components/Films/Format/FilmsDVD";
+// import FilmsBRD from "./components/Films/Format/FilmsBRD";
 
 // Wrestling
 // import Wrestling from "./components/Wrestling/Wrestling";
@@ -39,9 +40,9 @@ function App() {
         <Routes>
           <Route path="/" element={<TestMain />} />
 
-          <Route path="/films" element={<Films />} />
-          <Route path="/films/dvd" element={<FilmsDVD />} />
-          <Route path="/films/brd" element={<FilmsBRD />} />
+          <Route path="/films" element={<FilmContainer />} />
+          {/* <Route path="/films/dvd" element={<FilmsDVD />} />
+          <Route path="/films/brd" element={<FilmsBRD />} /> */}
 
           <Route path="/music" element={<MusicContainer />} />
           {/* <Route path="/music/dvd" element={<MusicDVD />} />
