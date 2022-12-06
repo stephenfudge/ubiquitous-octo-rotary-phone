@@ -148,12 +148,50 @@ return (
         </li>
         </Link>
       </ul>
+         
+      <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          Presentation
+      </li>
+      <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+        <Link to="/wrestling/compilation">
+        <li>
+        Compilations
+        </li>
+        </Link>
+        <Link to="/wrestling/documentary">
+        <li>
+        Documentaries
+        </li>
+        </Link>
+        <Link to="/wrestling/ppv">
+        <li>
+        Pay Per View Events
+        </li>
+        </Link>
+      </ul>
+
+   
+      <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
+          Media Format
+      </li>
+      <ul class="dropdown-menu absolute hidden text-gray-700 pt-1">
+
+      <Link to="/wrestling/brd">
+        <li>
+       BluRays
+        </li>
+        </Link>
+        <Link to="/wrestling/dvd">
+        <li>
+        DVDs
+        </li>
+        </Link>
     
-
      
+    </ul>
 
 
-        </ul>
+        {/* </ul> */}
     </div>
 
     

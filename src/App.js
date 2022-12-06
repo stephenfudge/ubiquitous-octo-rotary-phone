@@ -17,7 +17,7 @@ import MusicDVD from "./components/Music/Format/MusicDVD";
 import MusicBRD from "./components/Music/Format/MusicBRD";
 
 import Tv from "./components/Tv/Tv";
-// import TvBRD from './components/Tv/Format/TvBRD';
+import TvBRD from './components/Tv/Format/TvBRD';
 import TvDVD from './components/Tv/Format/TvDVD';
 
 // Wrestling
@@ -49,7 +49,7 @@ function App() {
           <Route path="/music/dvd" element={<MusicDVD />} />
 
           <Route path="/tv" element={<Tv />} />
-          {/* <Route path="/tv/brd" element={<TvBRD />} /> */}
+          <Route path="/tv/brd" element={<TvBRD />} />
           <Route path="/tv/dvd" element={<TvDVD />} />
 
 
