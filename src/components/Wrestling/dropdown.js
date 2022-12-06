@@ -3,7 +3,6 @@ import "../../styles/Nav.css";
 
 export default function WrestlingDropdown({ currentPage, handlePageChange }) {
   return (
-    // <div class="p-10">
     <div>
       {/* Promotion */}
       <div class="dropdown inline-block relative px-4">
@@ -26,7 +25,7 @@ export default function WrestlingDropdown({ currentPage, handlePageChange }) {
                 currentPage === "Other" ? "nav-link active" : "nav-link"
               }
             >
-              Non WWE Content
+              <button>Non WWE Content</button>
             </a>
           </li>
           <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
@@ -35,7 +34,7 @@ export default function WrestlingDropdown({ currentPage, handlePageChange }) {
               onClick={() => handlePageChange("WWE")}
               className={currentPage === "WWE" ? "nav-link active" : "nav-link"}
             >
-              WWE Content
+              <button>WWE Content</button>
             </a>
           </li>
         </ul>
@@ -61,7 +60,7 @@ export default function WrestlingDropdown({ currentPage, handlePageChange }) {
                 currentPage === "Compilation" ? "nav-link active" : "nav-link"
               }
             >
-              Compilation
+              <button>Compilation</button>
             </a>
           </li>
           <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
@@ -72,7 +71,7 @@ export default function WrestlingDropdown({ currentPage, handlePageChange }) {
                 currentPage === "Documentary" ? "nav-link active" : "nav-link"
               }
             >
-              Documentaries
+              <button>Documentaries</button>
             </a>
           </li>
           <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
@@ -83,7 +82,7 @@ export default function WrestlingDropdown({ currentPage, handlePageChange }) {
                 currentPage === "WrestlingPPV" ? "nav-link active" : "nav-link"
               }
             >
-              PPVs
+              <button>PPVs</button>
             </a>
           </li>
         </ul>
@@ -106,18 +105,22 @@ export default function WrestlingDropdown({ currentPage, handlePageChange }) {
             <a
               href="#brd"
               onClick={() => handlePageChange("WrestlingBRD")}
-              className={currentPage === "WrestlingBRD" ? "nav-link active" : "nav-link"}
+              className={
+                currentPage === "WrestlingBRD" ? "nav-link active" : "nav-link"
+              }
             >
-              BluRays
+              <button>BluRays</button>
             </a>
           </li>
           <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
             <a
               href="#dvd"
               onClick={() => handlePageChange("WrestlingDVD")}
-              className={currentPage === "WrestlingDVD" ? "nav-link active" : "nav-link"}
+              className={
+                currentPage === "WrestlingDVD" ? "nav-link active" : "nav-link"
+              }
             >
-              DVDs
+              <button>DVDs</button>
             </a>
           </li>
         </ul>
