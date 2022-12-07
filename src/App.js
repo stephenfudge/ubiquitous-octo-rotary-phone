@@ -29,14 +29,15 @@ import PPV from "./components/Wrestling/Presentation/PPV";
 import Other from "./components/Wrestling/Promotion/Other";
 import WrestlingBRD from "./components/Wrestling/Format/WrestlingBRD";
 import WrestlingDVD from "./components/Wrestling/Format/WrestlingDVD";
-
+import Nav3 from "./components/Nav3";
 
 function App() {
   return (
     <Router>
       <div className="App">
         {/* <NavRouter /> */}
-        <Nav2 />
+        {/* <Nav2 /> */}
+        <Nav3 />
         <Routes>
           <Route path="/" element={<TestMain />} />
 

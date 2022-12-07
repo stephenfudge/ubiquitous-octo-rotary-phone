@@ -4,24 +4,24 @@
   
  */
 
-/* ul{
+ul{
   display: inline-block;
-} */
+}
 
 li{
-  display: inline;
+  display: inline-block;
   padding: 2%;
 }
 
 
-.dropdown:hover .dropdown-menu {
+/* .dropdown:hover .dropdown-menu {
   display: block;
-}
+} */
 
 .menuTypes{
-  display: block;
+  display: inline-block;
 }
 
-button{
+/* button{
   padding: 2%;
-}
+} */

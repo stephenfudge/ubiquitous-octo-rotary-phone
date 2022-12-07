@@ -169,6 +169,7 @@ return (
         </li>
         </Link>
       </ul>
+      </ul>
 
    
       <li className="menuTypes bg-white hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 border border-gray-400 rounded shadow">
