@@ -5,12 +5,11 @@ import { Dropdown } from 'flowbite-react'
 export default function WrestlingDrop() {
   return (
     <div className="bg-darkpurple text-jazzberry hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold rounded inline-flex items-center"  dismissOnClick={false}>
-        
       <Dropdown label="Wrestling" dismissOnClick={false}>
         <Dropdown.Item>
           <Link to="/wrestling">All Wrestling</Link>
         </Dropdown.Item>
-
+{/* format */}
         <Dropdown label="Format" placement="right" dismissOnClick={false}>
           <Dropdown.Item>
             <Link to="/wrestling/brd">BluRays</Link>
@@ -19,7 +18,7 @@ export default function WrestlingDrop() {
             <Link to="/wrestling/dvd">DVDs</Link>
           </Dropdown.Item>
         </Dropdown>
-
+{/* promotion */}
         <Dropdown label="Promotion" placement="right" dismissOnClick={false}>
           <Dropdown.Item>
             <Link to="/wrestling/wwe"> WWE</Link>
@@ -28,7 +27,7 @@ export default function WrestlingDrop() {
             <Link to="/wrestling/other-promotions">Non WWE</Link>
           </Dropdown.Item>
         </Dropdown>
-
+{/* presentation */}
         <Dropdown label="Presentation" placement="right" dismissOnClick={false}>
           <Dropdown.Item dismissOnClick={false}>
             <Link to="/wrestling/compilation">Compilations</Link>
