@@ -1,7 +1,7 @@
 {
   "name": "ubiquitous-octo-rotary-phone",
   "version": "0.1.0",
-  "homepage": "https://stephenfudge.github.io/ubiquitous-octo-rotary-phone",
+  "homepage": "https://stephenfudge.github.io/ubiquitous-octo-rotary-phone/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

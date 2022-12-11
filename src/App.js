@@ -39,7 +39,7 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route exact path="/" element={<Main />} />
+          <Route path="/" element={<Main />} />
 
           <Route path="/films" element={<Films />} />
           <Route path="/films/brd" element={<FilmsBRD />} />
