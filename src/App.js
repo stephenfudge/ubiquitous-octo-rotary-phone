@@ -39,7 +39,7 @@ function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path="/" element={<Main />} />
+          <Route path="*" element={<Main />} />
 
           <Route path="/films" element={<Films />} />
           <Route path="/films/brd" element={<FilmsBRD />} />
@@ -64,8 +64,8 @@ function App() {
           <Route path="/wrestling/wwe" element={<WWE />} />
         </Routes>
 
-      </div>
       <Footer />
+      </div>
     </Router>
   );
 }
