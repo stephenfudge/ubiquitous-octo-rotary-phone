@@ -7,10 +7,9 @@ import wrestling from "../../../seeds/wrestlingData";
 const WrestlingBRD = () => {
   return (
     <div className="flex flex-col items-center mx-auto bg-darkpurple">
-      {/* header of page */}
-      {/* <div className="md:text-5xl sm:text-2xl text-bedazzle py-2">
-        Professional Wrestling DVDs and BluRays
-      </div> */}
+ {/* header of page */}
+ <div className="md:text-3xl sm: text-l text-bedazzle py-2 font-bold underline">Professional Wrestling BluRays</div>
+
       <div className="py-8">
         <table className="table-auto border-collapse border border-black">
           {/* column headings */}

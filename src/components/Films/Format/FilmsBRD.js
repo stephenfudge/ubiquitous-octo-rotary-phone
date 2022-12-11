@@ -5,6 +5,8 @@ import films from "../../../seeds/filmData";
 const FilmsBRD = () => {
   return (
     <div className="flex flex-col items-center bg-darkpurple">
+       {/* header of page */}
+       <div className="md:text-3xl sm: text-l text-bedazzle py-2 font-bold underline">Feature Film BluRays</div>
       <div className="py-8">
         <table className="border-collapse border border-black">
           {/* column headings */}

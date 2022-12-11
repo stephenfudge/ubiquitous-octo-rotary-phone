@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 // header/footer/main
-import Nav3 from "./components/Nav3";
+import Nav from './components/Nav'
 import Main from "./pages/Main";
 import Footer from "./components/Footer";
 
@@ -37,7 +37,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Nav3 />
+        <Nav />
         <Routes>
           <Route exact path="/" element={<Main />} />
 
