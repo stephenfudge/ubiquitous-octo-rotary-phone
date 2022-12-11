@@ -4,9 +4,9 @@ import { Dropdown } from 'flowbite-react'
 
 export default function WrestlingDrop() {
   return (
-    <div className="bg-darkpurple text-jazzberry hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold py-2 px-4 rounded inline-flex items-center"  dismissOnClick={false}>
+    <div className="bg-darkpurple text-jazzberry hover:bg-bedazzle hover:text-paradise text-gray-800 font-semibold rounded inline-flex items-center"  dismissOnClick={false}>
         
-      <Dropdown label="Wrestling" color="jazzberry" dismissOnClick={false}>
+      <Dropdown label="Wrestling" dismissOnClick={false}>
         <Dropdown.Item>
           <Link to="/wrestling">All Wrestling</Link>
         </Dropdown.Item>

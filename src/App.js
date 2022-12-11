@@ -2,20 +2,23 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import "./App.css";
-// import Main from './pages/Main';
-import NavRouter from "./components/NavRouter";
-import Footer from "./components/Footer";
-import TestMain from "./pages/TestMain";
-import Nav2 from './components/Nav2';
 
+// header/footer/main
+import Nav3 from "./components/Nav3";
+import Main from "./pages/Main";
+import Footer from "./components/Footer";
+
+// Films
 import Films from "./components/Films/Films";
 import FilmsDVD from "./components/Films/Format/FilmsDVD";
 import FilmsBRD from "./components/Films/Format/FilmsBRD";
 
+// Music
 import Music from "./components/Music/Music";
 import MusicDVD from "./components/Music/Format/MusicDVD";
 import MusicBRD from "./components/Music/Format/MusicBRD";
 
+// TV
 import Tv from "./components/Tv/Tv";
 import TvBRD from './components/Tv/Format/TvBRD';
 import TvDVD from './components/Tv/Format/TvDVD';
@@ -29,17 +32,14 @@ import PPV from "./components/Wrestling/Presentation/PPV";
 import Other from "./components/Wrestling/Promotion/Other";
 import WrestlingBRD from "./components/Wrestling/Format/WrestlingBRD";
 import WrestlingDVD from "./components/Wrestling/Format/WrestlingDVD";
-import Nav3 from "./components/Nav3";
 
 function App() {
   return (
     <Router>
       <div className="App">
-        {/* <NavRouter /> */}
-        {/* <Nav2 /> */}
         <Nav3 />
         <Routes>
-          <Route path="/" element={<TestMain />} />
+          <Route exact path="/" element={<Main />} />
 
           <Route path="/films" element={<Films />} />
           <Route path="/films/brd" element={<FilmsBRD />} />
@@ -64,8 +64,8 @@ function App() {
           <Route path="/wrestling/wwe" element={<WWE />} />
         </Routes>
 
-        <Footer />
       </div>
+      <Footer />
     </Router>
   );
 }

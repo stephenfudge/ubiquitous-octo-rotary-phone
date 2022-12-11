@@ -1,40 +1,14 @@
 import React from 'react';
-import { useState } from 'react';
+import Films from '../components/Films/Films';
 
-import Music from '../components/Music';
-import Wrestling from '../components/Wrestling';
-import Tv from '../components/Tv';
-import Films from '../components/Films';
-import Nav from '../components/Nav';
-import Footer from '../components/Footer';
-
-const Main = () => {
-const [page, setPage] = useState('music');
-
-  function RenderPage(){
-    switch(page){
-      case "music":
-        return <Music />
-         case "wrestling":
-            return <Wrestling />
-            case "tv":
-              return <Tv />
-              case "films":
-              return <Films />
-              default:
-               return <Music />
-    } 
-
-
-  }
-  return (
-    <div className="App">
-    <Nav page={page} setPage={setPage}/>
-  <RenderPage />
-  <Footer />
-    </div>
-  );
+function Main(){
+    return(
+<div className='bg-darkpurple'>
+        <h3 className='text-white text-2xl'> Click on the appropriate category above  to see the movies I have, let's have a movie night!</h3>
+            <Films />
+       
+</div>
+    )
 }
-
 
 export default Main;

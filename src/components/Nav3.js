@@ -13,16 +13,16 @@ export default function Nav3() {
       </h1>
       <div className="navbar-menu">
         <ul>
-          <li dismissOnClick={false}>
+          <li dismissOnClick={true}>
             <FilmDrop />
           </li>
-          <li dismissOnClick={false}>
+          <li dismissOnClick={true}>
             <MusicDrop />
           </li>
-          <li dismissOnClick={false}>
+          <li dismissOnClick={true}>
             <TvDrop />
           </li>
-          <li dismissOnClick={false}>
+          <li dismissOnClick={true}>
             <WrestlingDrop />
           </li>
         </ul>
